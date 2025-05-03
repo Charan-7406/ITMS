@@ -57,5 +57,4 @@ All necessary packages are installed via `pip` (Airflow, DBT, pandas, openpyxl, 
   schedule_interval='@daily'
 
 
-  <img width="1424" alt="image" src="https://github.com/user-attachments/assets/f2b15e81-1751-48f8-841d-18ac4fff1984" />
-
+  
