@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: servicenow
+    database: db
+    schema: public
+    tables:
+      - name: servicenow_tickets_raw
+
+models:
+  - name: category_wise_tickets 
+  - name: servicenow_tickets_cleaned
+  - name: servicenow_tickets_date_extracted
+  - name: servicenow_tickets_avg_resolution_time
+  - name: servicenow_tickets_closure_rate
+  - name: servicenow_monthly_ticket_summary

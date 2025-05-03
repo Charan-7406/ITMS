@@ -1,0 +1,14 @@
+name: 'servicenow_analytics'
+version: '1.0.0'
+config-version: 2
+profile: 'servicenow_analytics'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+
+models:
+  servicenow_analytics:
+    staging:
+      +materialized: table
