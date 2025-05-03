@@ -55,3 +55,7 @@ All necessary packages are installed via `pip` (Airflow, DBT, pandas, openpyxl, 
 - The Airflow DAG is scheduled to run **daily** using:
   ```python
   schedule_interval='@daily'
+
+
+  <img width="1424" alt="image" src="https://github.com/user-attachments/assets/f2b15e81-1751-48f8-841d-18ac4fff1984" />
+
