@@ -56,6 +56,10 @@ All necessary packages are installed via `pip` (Airflow, DBT, pandas, openpyxl, 
   ```python
   schedule_interval='@daily'
 
+  
+### 5.Visualization (Apache Superset)
+- Dashboards are created in Apache Superset for visualizing key metrics such as ticket resolution time, closure rates, and monthly trends. I have exported the dashboard as a zip file and saved it in the repo. A snapshot is attached below of the dashboard.
+
 
 <img width="1424" alt="Image" src="https://github.com/user-attachments/assets/ffe44472-1261-4e56-9a15-9a18c58eb62b" />
 
